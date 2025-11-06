@@ -22,7 +22,7 @@ function iniciarMapa() {
 function calcularRuta() {
 
     var partida= document.getElementById("partida").value;
-    var destino = "Av. Tecnológico 1000, Morelia, Mich., México";
+    var destino = "Valencia, España";
     var opciones_mapa = {
         origin: partida,
         destination: destino,
