@@ -1,0 +1,42 @@
+[
+{
+    "id":1,
+    "titulo":"Nuevo Producto: Humidificador",
+    "fecha":"01/11/2025",
+    "resumen":"Descubre la forma más elegante de cuidar tus plantas",
+    "contenido":"Presentamos nuestro nuevo humidificador diseñado especialmente para mantener tus plantas saludables y felices. Con un diseño moderno y funcional, este dispositivo no solo mejora la humedad del ambiente, sino que también añade un toque de estilo a cualquier espacio. ¡No esperes más para darle a tus plantas el cuidado que merecen!",
+    "imagen":"images/humidificador.png"
+},
+{
+    "id":2,
+    "titulo":"Nuevo Servicio: Asesoría en Jardinería",
+    "fecha":"15/11/2025",
+    "resumen":"Ofrecemos asesoría personalizada para el cuidado de tus plantas.",
+    "contenido":"Nuestro equipo de expertos en jardinería está listo para ayudarte a crear el jardín de tus sueños. Ya sea que necesites consejos sobre plantas específicas, diseño de jardines o mantenimiento, estamos aquí para ayudarte.",
+    "imagen":"images/margaritas.png"
+},
+{
+    "id":3,
+    "titulo":"Vacaciones de Fin de Año",
+    "fecha":"15/11/2025",
+    "resumen":"Los envíos no estarán disponibles del 20 de diciembre al 5 de enero.",
+    "contenido":"Todas las compras realizadas entre el 20 de diciembre y el 5 de enero serán procesadas a partir del 6 de enero. Agradecemos tu comprensión y te deseamos unas felices fiestas.",
+    "imagen":"images/rosa_rosa.png"
+},
+{
+    "id":4,
+    "titulo":"Mejoramos nuestro sitio web",
+    "fecha":"15/11/2025",
+    "resumen":"Nuestra página ahora es más rápida y fácil de navegar.",
+    "contenido":"Hemos realizado importantes mejoras en nuestro sitio web para ofrecerte una experiencia de usuario más fluida y agradable. Navega por nuestras secciones y descubre todas las novedades que tenemos para ti.",
+    "imagen":"images/lavanda.png"
+},
+{
+    "id":5,
+    "titulo":"Nuevo Producto: Ramos Personalizados",
+    "fecha":"15/11/2025",
+    "resumen":"Crea un ramo único y personalizado para cualquier ocasión.",
+    "contenido":"Ofrecemos la posibilidad de diseñar ramos a medida, eligiendo entre una amplia variedad de flores y estilos. Nuestro equipo de expertos estará encantado de ayudarte a crear el ramo perfecto para sorprender a esa persona especial.",
+    "imagen":"images/ramo_01.png"
+}
+]

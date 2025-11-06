@@ -1,0 +1,97 @@
+
+
+/*ELEMENTOS COMPARTIDOS*/
+/*NAV BAR*/
+.menu_nav_class{
+    width: 98.9%;
+    position: fixed;
+    top: 0;
+    left: 0.55%;
+    z-index: 1000;
+}
+
+.menu_ul_class li{
+    background-color: #a0ffa2;
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.menu_ul_class{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+.menu_ul_class li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 1.75rem;
+    font-family: "Dancing Script", "sans-serif";
+
+}
+.index_class .menu_index,
+.galeria_class .menu_galeria,
+.presupuesto_class .menu_presupuesto,
+.contacto_class .menu_contacto
+{
+    background-color: #d6ffa0;
+}
+/*Body
+*/
+body{
+    overflow-x: hidden;
+}
+/*Div title class*/
+.div_title_class{
+    visibility: hidden;
+    height: 100px;
+}
+/*FOOTER
+    object-fit contain para que el logo de youtube no se deforme
+*/
+.social_img_class{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    object-fit: contain;
+}
+.social_img_class:hover{
+    filter: invert(1);
+    transition: all 0.3s ease;
+}
+#footer_id{
+    background-color: #a0ffa2;
+}
+
+
+/*NO COMPARTIDO*/
+/*INDEX*/
+/*Noticias*/
+.noticias_div_class{
+    display: grid;
+}
+.noticias_div_row_class{
+    grid-column: 1;
+}
+.noticias_div_column_class{
+    grid-column: 2;
+    grid-row:1/3;
+}
+/*Presupuestos*/
+label{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px  ;
+}
+.checkbox_label_class{
+    display: inline;
+
+}
+/*TEMPORAL*/
+div{
+    border: 1px solid red;
+}
