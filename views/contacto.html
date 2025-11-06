@@ -13,9 +13,8 @@
         rel="stylesheet">
 
 
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_thKXbixIAN_iftQqGFEsehaIQEUdTFo&loading=async&callback=iniciarMapa"></script>
-        <script type="text/javascript" src="../js/mapa.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_thKXbixIAN_iftQqGFEsehaIQEUdTFo&loading=async&callback=iniciarMapa"></script>
+    <script type="text/javascript" src="../js/mapa.js"></script>
     <title>Contacto</title>
 </head>
 
@@ -56,9 +55,11 @@
     <div class="div_title_class">
         <h1>Contacto Botanica Express</h1>
     </div>
+    <h2>yes</h2>
+    <h3>no</h3>
     <div class="contenedor_mapa">
     Partida : <input id="partida" type="text" value="benisano">
-    <button type="button" onclick="event.preventDefault(); event.stopPropagation(); calcularRuta(); return false;">Calcular Ruta</button>
+    <button type="button" style="position: relative; z-index: 2000001; pointer-events: auto;" onclick="event.preventDefault(); event.stopPropagation(); calcularRuta(); return false;">Calcular Ruta</button>
         <br /><br /><br />
         <div id="mapa" style="position:relative;float:left;width:650px; height:575px"></div>
         <div id="ruta" style="position:relative;float:left;width:250px; "></div>
